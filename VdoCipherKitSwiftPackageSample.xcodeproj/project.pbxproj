@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		6AEA0283253D9AAD008B630C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEA0281253D9AAD008B630C /* LaunchScreen.storyboard */; };
 		6AEA028E253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA028D253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift */; };
 		6AEA0299253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA0298253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift */; };
+		6AEA02B1253DA06D008B630C /* VdoCipherKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6AEA02B0253DA06D008B630C /* VdoCipherKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AEA02B1253DA06D008B630C /* VdoCipherKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = VdoCipherKitSwiftPackageSample;
+			packageProductDependencies = (
+				6AEA02B0253DA06D008B630C /* VdoCipherKit */,
+			);
 			productName = VdoCipherKitSwiftPackageSample;
 			productReference = 6AEA0273253D9AAA008B630C /* VdoCipherKitSwiftPackageSample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 6AEA026A253D9AAA008B630C;
+			packageReferences = (
+				6AEA02AF253DA06D008B630C /* XCRemoteSwiftPackageReference "swift-pm-repo" */,
+			);
 			productRefGroup = 6AEA0274253D9AAA008B630C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -443,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSample;
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationWorks.PetalAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +470,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSample;
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationWorks.PetalAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6AEA02AF253DA06D008B630C /* XCRemoteSwiftPackageReference "swift-pm-repo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VdoCipher/swift-pm-repo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6AEA02B0253DA06D008B630C /* VdoCipherKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AEA02AF253DA06D008B630C /* XCRemoteSwiftPackageReference "swift-pm-repo" */;
+			productName = VdoCipherKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6AEA026B253D9AAA008B630C /* Project object */;
 }

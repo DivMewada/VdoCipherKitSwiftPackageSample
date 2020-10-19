@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "VdoCipherKit",
+        "repositoryURL": "https://github.com/VdoCipher/swift-pm-repo.git",
+        "state": {
+          "branch": null,
+          "revision": "32085b85d93958af17f5f3280065783c63a8563d",
+          "version": "1.2.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
