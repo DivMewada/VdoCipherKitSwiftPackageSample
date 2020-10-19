@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AEA0277253D9AAA008B630C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA0276253D9AAA008B630C /* AppDelegate.swift */; };
+		6AEA0279253D9AAA008B630C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA0278253D9AAA008B630C /* SceneDelegate.swift */; };
+		6AEA027B253D9AAA008B630C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA027A253D9AAA008B630C /* ViewController.swift */; };
+		6AEA027E253D9AAA008B630C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEA027C253D9AAA008B630C /* Main.storyboard */; };
+		6AEA0280253D9AAD008B630C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEA027F253D9AAD008B630C /* Assets.xcassets */; };
+		6AEA0283253D9AAD008B630C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEA0281253D9AAD008B630C /* LaunchScreen.storyboard */; };
+		6AEA028E253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA028D253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift */; };
+		6AEA0299253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA0298253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AEA028A253D9AAD008B630C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEA026B253D9AAA008B630C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AEA0272253D9AAA008B630C;
+			remoteInfo = VdoCipherKitSwiftPackageSample;
+		};
+		6AEA0295253D9AAD008B630C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEA026B253D9AAA008B630C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AEA0272253D9AAA008B630C;
+			remoteInfo = VdoCipherKitSwiftPackageSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AEA0273253D9AAA008B630C /* VdoCipherKitSwiftPackageSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VdoCipherKitSwiftPackageSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEA0276253D9AAA008B630C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AEA0278253D9AAA008B630C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AEA027A253D9AAA008B630C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AEA027D253D9AAA008B630C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AEA027F253D9AAD008B630C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AEA0282253D9AAD008B630C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AEA0284253D9AAD008B630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEA0289253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VdoCipherKitSwiftPackageSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEA028D253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VdoCipherKitSwiftPackageSampleTests.swift; sourceTree = "<group>"; };
+		6AEA028F253D9AAD008B630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEA0294253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VdoCipherKitSwiftPackageSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEA0298253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VdoCipherKitSwiftPackageSampleUITests.swift; sourceTree = "<group>"; };
+		6AEA029A253D9AAD008B630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AEA0270253D9AAA008B630C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA0286253D9AAD008B630C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA0291253D9AAD008B630C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AEA026A253D9AAA008B630C = {
+			isa = PBXGroup;
+			children = (
+				6AEA0275253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */,
+				6AEA028C253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests */,
+				6AEA0297253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests */,
+				6AEA0274253D9AAA008B630C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AEA0274253D9AAA008B630C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA0273253D9AAA008B630C /* VdoCipherKitSwiftPackageSample.app */,
+				6AEA0289253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.xctest */,
+				6AEA0294253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AEA0275253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA0276253D9AAA008B630C /* AppDelegate.swift */,
+				6AEA0278253D9AAA008B630C /* SceneDelegate.swift */,
+				6AEA027A253D9AAA008B630C /* ViewController.swift */,
+				6AEA027C253D9AAA008B630C /* Main.storyboard */,
+				6AEA027F253D9AAD008B630C /* Assets.xcassets */,
+				6AEA0281253D9AAD008B630C /* LaunchScreen.storyboard */,
+				6AEA0284253D9AAD008B630C /* Info.plist */,
+			);
+			path = VdoCipherKitSwiftPackageSample;
+			sourceTree = "<group>";
+		};
+		6AEA028C253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA028D253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift */,
+				6AEA028F253D9AAD008B630C /* Info.plist */,
+			);
+			path = VdoCipherKitSwiftPackageSampleTests;
+			sourceTree = "<group>";
+		};
+		6AEA0297253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA0298253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift */,
+				6AEA029A253D9AAD008B630C /* Info.plist */,
+			);
+			path = VdoCipherKitSwiftPackageSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEA029D253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSample" */;
+			buildPhases = (
+				6AEA026F253D9AAA008B630C /* Sources */,
+				6AEA0270253D9AAA008B630C /* Frameworks */,
+				6AEA0271253D9AAA008B630C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VdoCipherKitSwiftPackageSample;
+			productName = VdoCipherKitSwiftPackageSample;
+			productReference = 6AEA0273253D9AAA008B630C /* VdoCipherKitSwiftPackageSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AEA0288253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEA02A0253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSampleTests" */;
+			buildPhases = (
+				6AEA0285253D9AAD008B630C /* Sources */,
+				6AEA0286253D9AAD008B630C /* Frameworks */,
+				6AEA0287253D9AAD008B630C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AEA028B253D9AAD008B630C /* PBXTargetDependency */,
+			);
+			name = VdoCipherKitSwiftPackageSampleTests;
+			productName = VdoCipherKitSwiftPackageSampleTests;
+			productReference = 6AEA0289253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AEA0293253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEA02A3253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSampleUITests" */;
+			buildPhases = (
+				6AEA0290253D9AAD008B630C /* Sources */,
+				6AEA0291253D9AAD008B630C /* Frameworks */,
+				6AEA0292253D9AAD008B630C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AEA0296253D9AAD008B630C /* PBXTargetDependency */,
+			);
+			name = VdoCipherKitSwiftPackageSampleUITests;
+			productName = VdoCipherKitSwiftPackageSampleUITests;
+			productReference = 6AEA0294253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AEA026B253D9AAA008B630C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6AEA0272253D9AAA008B630C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6AEA0288253D9AAD008B630C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6AEA0272253D9AAA008B630C;
+					};
+					6AEA0293253D9AAD008B630C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6AEA0272253D9AAA008B630C;
+					};
+				};
+			};
+			buildConfigurationList = 6AEA026E253D9AAA008B630C /* Build configuration list for PBXProject "VdoCipherKitSwiftPackageSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AEA026A253D9AAA008B630C;
+			productRefGroup = 6AEA0274253D9AAA008B630C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */,
+				6AEA0288253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests */,
+				6AEA0293253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AEA0271253D9AAA008B630C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEA0283253D9AAD008B630C /* LaunchScreen.storyboard in Resources */,
+				6AEA0280253D9AAD008B630C /* Assets.xcassets in Resources */,
+				6AEA027E253D9AAA008B630C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA0287253D9AAD008B630C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA0292253D9AAD008B630C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AEA026F253D9AAA008B630C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEA027B253D9AAA008B630C /* ViewController.swift in Sources */,
+				6AEA0277253D9AAA008B630C /* AppDelegate.swift in Sources */,
+				6AEA0279253D9AAA008B630C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA0285253D9AAD008B630C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEA028E253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEA0290253D9AAD008B630C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEA0299253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AEA028B253D9AAD008B630C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */;
+			targetProxy = 6AEA028A253D9AAD008B630C /* PBXContainerItemProxy */;
+		};
+		6AEA0296253D9AAD008B630C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */;
+			targetProxy = 6AEA0295253D9AAD008B630C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AEA027C253D9AAA008B630C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AEA027D253D9AAA008B630C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AEA0281253D9AAD008B630C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AEA0282253D9AAD008B630C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AEA029B253D9AAD008B630C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AEA029C253D9AAD008B630C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AEA029E253D9AAD008B630C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = VdoCipherKitSwiftPackageSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AEA029F253D9AAD008B630C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = VdoCipherKitSwiftPackageSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AEA02A1253D9AAD008B630C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = VdoCipherKitSwiftPackageSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VdoCipherKitSwiftPackageSample.app/VdoCipherKitSwiftPackageSample";
+			};
+			name = Debug;
+		};
+		6AEA02A2253D9AAD008B630C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = VdoCipherKitSwiftPackageSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VdoCipherKitSwiftPackageSample.app/VdoCipherKitSwiftPackageSample";
+			};
+			name = Release;
+		};
+		6AEA02A4253D9AAD008B630C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = VdoCipherKitSwiftPackageSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VdoCipherKitSwiftPackageSample;
+			};
+			name = Debug;
+		};
+		6AEA02A5253D9AAD008B630C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = VdoCipherKitSwiftPackageSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationworks.VdoCipherKitSwiftPackageSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VdoCipherKitSwiftPackageSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AEA026E253D9AAA008B630C /* Build configuration list for PBXProject "VdoCipherKitSwiftPackageSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEA029B253D9AAD008B630C /* Debug */,
+				6AEA029C253D9AAD008B630C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEA029D253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEA029E253D9AAD008B630C /* Debug */,
+				6AEA029F253D9AAD008B630C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEA02A0253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEA02A1253D9AAD008B630C /* Debug */,
+				6AEA02A2253D9AAD008B630C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEA02A3253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEA02A4253D9AAD008B630C /* Debug */,
+				6AEA02A5253D9AAD008B630C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AEA026B253D9AAA008B630C /* Project object */;
+}
