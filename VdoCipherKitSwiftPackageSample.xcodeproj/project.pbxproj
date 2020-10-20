@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A37FB4E253EB6DA00D5B83F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A37FB4D253EB6DA00D5B83F /* NotificationService.swift */; };
+		6A37FB53253EB6DA00D5B83F /* notificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6A37FB4B253EB6DA00D5B83F /* notificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6AEA0277253D9AAA008B630C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA0276253D9AAA008B630C /* AppDelegate.swift */; };
 		6AEA0279253D9AAA008B630C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA0278253D9AAA008B630C /* SceneDelegate.swift */; };
 		6AEA027B253D9AAA008B630C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA027A253D9AAA008B630C /* ViewController.swift */; };
@@ -19,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6A37FB50253EB6DA00D5B83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEA026B253D9AAA008B630C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A37FB4A253EB6DA00D5B83F;
+			remoteInfo = notificationServiceExtension;
+		};
 		6AEA028A253D9AAD008B630C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6AEA026B253D9AAA008B630C /* Project object */;
@@ -35,7 +44,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6A37FB52253EB6DA00D5B83F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6A37FB53253EB6DA00D5B83F /* notificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6A37FB4B253EB6DA00D5B83F /* notificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = notificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A37FB4D253EB6DA00D5B83F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		6A37FB4F253EB6DA00D5B83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AEA0273253D9AAA008B630C /* VdoCipherKitSwiftPackageSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VdoCipherKitSwiftPackageSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AEA0276253D9AAA008B630C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AEA0278253D9AAA008B630C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6A37FB48253EB6DA00D5B83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AEA0270253D9AAA008B630C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,12 +111,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A37FB4C253EB6DA00D5B83F /* notificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6A37FB4D253EB6DA00D5B83F /* NotificationService.swift */,
+				6A37FB4F253EB6DA00D5B83F /* Info.plist */,
+			);
+			path = notificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		6AEA026A253D9AAA008B630C = {
 			isa = PBXGroup;
 			children = (
 				6AEA0275253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */,
 				6AEA028C253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests */,
 				6AEA0297253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests */,
+				6A37FB4C253EB6DA00D5B83F /* notificationServiceExtension */,
 				6AEA0274253D9AAA008B630C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +137,7 @@
 				6AEA0273253D9AAA008B630C /* VdoCipherKitSwiftPackageSample.app */,
 				6AEA0289253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests.xctest */,
 				6AEA0294253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests.xctest */,
+				6A37FB4B253EB6DA00D5B83F /* notificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +177,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6A37FB4A253EB6DA00D5B83F /* notificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A37FB54253EB6DA00D5B83F /* Build configuration list for PBXNativeTarget "notificationServiceExtension" */;
+			buildPhases = (
+				6A37FB47253EB6DA00D5B83F /* Sources */,
+				6A37FB48253EB6DA00D5B83F /* Frameworks */,
+				6A37FB49253EB6DA00D5B83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notificationServiceExtension;
+			productName = notificationServiceExtension;
+			productReference = 6A37FB4B253EB6DA00D5B83F /* notificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AEA029D253D9AAD008B630C /* Build configuration list for PBXNativeTarget "VdoCipherKitSwiftPackageSample" */;
@@ -140,10 +201,12 @@
 				6AEA026F253D9AAA008B630C /* Sources */,
 				6AEA0270253D9AAA008B630C /* Frameworks */,
 				6AEA0271253D9AAA008B630C /* Resources */,
+				6A37FB52253EB6DA00D5B83F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6A37FB51253EB6DA00D5B83F /* PBXTargetDependency */,
 			);
 			name = VdoCipherKitSwiftPackageSample;
 			packageProductDependencies = (
@@ -198,6 +261,9 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					6A37FB4A253EB6DA00D5B83F = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					6AEA0272253D9AAA008B630C = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -230,11 +296,19 @@
 				6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */,
 				6AEA0288253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleTests */,
 				6AEA0293253D9AAD008B630C /* VdoCipherKitSwiftPackageSampleUITests */,
+				6A37FB4A253EB6DA00D5B83F /* notificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6A37FB49253EB6DA00D5B83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AEA0271253D9AAA008B630C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +336,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A37FB47253EB6DA00D5B83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A37FB4E253EB6DA00D5B83F /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AEA026F253D9AAA008B630C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +373,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6A37FB51253EB6DA00D5B83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A37FB4A253EB6DA00D5B83F /* notificationServiceExtension */;
+			targetProxy = 6A37FB50253EB6DA00D5B83F /* PBXContainerItemProxy */;
+		};
 		6AEA028B253D9AAD008B630C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6AEA0272253D9AAA008B630C /* VdoCipherKitSwiftPackageSample */;
@@ -323,6 +410,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6A37FB55253EB6DA00D5B83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = notificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationWorks.PetalAcademy.notificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A37FB56253EB6DA00D5B83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E737MQJQ7Z;
+				INFOPLIST_FILE = notificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.informationWorks.PetalAcademy.notificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6AEA029B253D9AAD008B630C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,6 +567,7 @@
 		6AEA029E253D9AAD008B630C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,6 +587,7 @@
 		6AEA029F253D9AAD008B630C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +691,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A37FB54253EB6DA00D5B83F /* Build configuration list for PBXNativeTarget "notificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A37FB55253EB6DA00D5B83F /* Debug */,
+				6A37FB56253EB6DA00D5B83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6AEA026E253D9AAA008B630C /* Build configuration list for PBXProject "VdoCipherKitSwiftPackageSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
